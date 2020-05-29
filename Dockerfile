@@ -1,8 +1,8 @@
 FROM ubuntu:20.10
 
-WORKDIR /app
-
 COPY [ "switchRole.sh", "getParamStore.sh", "./var/" ]
+
+WORKDIR /app
 
 ENV PATH /usr/local/bin:$PATH
 
@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         make \
         python3.8 \
         python3-pip \
+        vim \
         zip \
     && rm -rf /var/cache/apk/*
 

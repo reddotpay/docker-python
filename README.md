@@ -1,11 +1,11 @@
 [![Ubuntu 20.10](https://img.shields.io/badge/ubuntu-20.10-orange.svg)](https://github.com/tianon/docker-brew-ubuntu-core/blob/451851eab04432157249eb444d5a42714e2a7112/groovy/Dockerfile) [![Python 3.8.3](https://img.shields.io/badge/python-3.8.3-blue.svg)](https://www.python.org/downloads/release/python-383/)
 
-## rdp-python3
+# docker-python3.8
 
-#### Description
+## Description
 Ubuntu docker for python 3.
 
-#### File included
+## File included
 1. **switchRole.sh**- returns a set of temporary security credentials that you can use to access AWS resources
     - Parameter
 		- DEV_AWS_ROLE 
@@ -13,9 +13,8 @@ Ubuntu docker for python 3.
 2. **getParamStore.sh**- get all the parameters from the respective aws parameter store
     - Parameter
 		- IT_PARAMSTORE
-		- FRONTEND_PARAMSTORE
 
-#### Python package installed
+## Python package installed
 1.  **autopep8**- automatically formats Python code to conform to the PEP 8 style guide.
 2.  **awscli**- unified command line interface to Amazon Web Services.
 3.  **boto3**- Amazon Web Services (AWS) Software Development Kit (SDK) for Python
