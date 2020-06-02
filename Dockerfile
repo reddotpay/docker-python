@@ -37,4 +37,5 @@ RUN pip install --upgrade --no-cache-dir \
     s3pypi \
     setuptools \
     sphinx \
-    sphinx-rtd-theme
+    sphinx-rtd-theme \
+    virtualenv

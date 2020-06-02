@@ -27,3 +27,4 @@ Ubuntu docker for python 3.
 10. **setuptools**- easily download, build, install, upgrade, and uninstall Python packages
 11. **sphinx**- documentation generator written and used by the Python community.
 12. **sphinx-rtd-theme**- read the Docs theme for Sphinx
+13. **virtualenv**- Virtual Python Environment builder
