@@ -1,6 +1,6 @@
 FROM ubuntu:20.10
 
-COPY [ "switchRole.sh", "getParamStore.sh", "./var/" ]
+COPY [ "switchRole.sh", "getParamStore.sh", "/var/" ]
 
 WORKDIR /app
 
